@@ -12,8 +12,12 @@ config_version=5
 
 config/name="Zuqiu-Game-GD"
 run/main_scene="uid://chqbucqdt7ueb"
-config/features=PackedStringArray("4.4", "GL Compatibility")
+config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+KeyUtils="*res://utils/key_utils.gd"
 
 [display]
 
